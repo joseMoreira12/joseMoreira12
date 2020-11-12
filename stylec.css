@@ -928,6 +928,9 @@ nav .buttonstory {
     grid-template-columns: 1fr;
     grid-gap: 0px;
   }
+  .work1 {
+    max-width: 400px;
+  }
   .band {
     width: 300px;
     flex-direction: column;
