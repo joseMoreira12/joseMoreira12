@@ -909,6 +909,25 @@ nav .buttonstory {
   .layer4 {
     background-image: url('images/playlistbackphone.jpg');
   }
+  .layerportfolio {
+    background-image: url('images/backgroundportfolio.jpg');
+  }
+  .layerouternature {
+    background-image: url('images/backgroundanimalphone.jpg');
+  }
+  .layerflock {
+    background-image: url('images/backgroundflockphone.jpg');
+  }
+  .layerperception {
+    background-image: url('images/backgroundportfoliophone.jpg');
+  }
+  .layerinktober {
+    background-image: url('images/backgroundinktoberphome.jpg');
+  }
+  .containerportfolio {
+    grid-template-columns: 1fr;
+    grid-gap: 0px;
+  }
   .band {
     width: 300px;
     flex-direction: column;
