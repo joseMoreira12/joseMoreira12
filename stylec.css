@@ -358,7 +358,39 @@ footer {
   margin: 1px auto;
   background-attachment: fixed;
 }
-.article{
+.layerlogofolio {
+  width: 100%;
+  left: 0px;
+  right: 0px;
+  height: 100vh;
+  line-height: 1em;
+  display: flex;
+  flex-direction: column;
+  background-image: url('images/logofoliocover.jpg');
+  background-size: 100%;
+  position: relative;
+  justify-content: center;
+  background-repeat: no-repeat;
+  margin: 1px auto;
+  background-attachment: fixed;
+}
+.layerportraits {
+  width: 100%;
+  left: 0px;
+  right: 0px;
+  height: 100vh;
+  line-height: 1em;
+  display: flex;
+  flex-direction: column;
+  background-image: url('images/retratos/retratocover.jpg');
+  background-size: 100%;
+  position: relative;
+  justify-content: center;
+  background-repeat: no-repeat;
+  margin: 1px auto;
+  background-attachment: fixed;
+}
+.article {
   width: 900px;
   padding-bottom: 100px;
   margin: 20px auto;
@@ -406,6 +438,11 @@ footer {
     flex-direction: column;
     margin: 64px auto;
     transition: 1s
+}
+.galleryflock {
+  display: flex;
+  flex-direction: row;
+
 }
 div.gallery .galleryflock{
   padding-left: 0;
